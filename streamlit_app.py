@@ -47,7 +47,7 @@ def main():
         df_filtered = launchTable(df,oven_filter)
         st.header('计算KPI')
         launchKpi(df_filtered)
-        
+        launchLineChart(df_filtered)
     else:
         st.divider()
 
